@@ -3,6 +3,8 @@ using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
+using Zephyros1938.DCSM.Demographics;
+using Zephyros1938.DCSM.Political;
 
 namespace Zephyros1938.DCSM.Windowing
 {
@@ -34,6 +36,8 @@ namespace Zephyros1938.DCSM.Windowing
             };
         }
         #endregion
+        
+        Party test = new Party("testParty");
         protected override void OnMouseMove(MouseMoveEventArgs e)
         {
             base.OnMouseMove(e);

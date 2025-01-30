@@ -29,5 +29,10 @@ namespace Zephyros1938.DCSM
                 game.Run();
             }
         }
+
+        public void GetCredits()
+        {
+            
+        }
     }
 }
